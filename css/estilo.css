@@ -1,0 +1,37 @@
+.menu ul li{
+    background-color: #088A85;
+    color:white;
+    
+    float:left;
+
+    width:200px;
+    height:40px;
+    display:inline-block;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    position:relative;
+}
+
+.menu ul li:hover{background-color: #ff1;
+}
+.menu ul ul li:hover{background-color: #f11;
+}
+.menu ul ul ul li:hover{background-color: #111;
+}
+
+.menu ul{padding: 0;
+}
+.menu ul ul {display: none;
+}
+
+.menu ul li:hover>ul{display: block;
+}
+.menu ul ul li:hover>ul{display: block;
+}
+
+.menu ul ul ul{
+    margin-left: 202px;
+    top: 0px;
+    position: absolute;
+}
